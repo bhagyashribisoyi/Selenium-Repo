@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free Crm Test Suite">
+  <test name="Free Crm Test">
+    <classes>
+      <class name="com.crm.qa.Test.LoginpageTest">
+      <!-- <methods>
+      <include name="Verify_loginTest"> </include>
+      <include name="Verify_Loginpage_titleTest"></include>
+      <include name="verify_Loginpage_LogoTest"></include>
+      </methods>
+       -->
+      </class>
+      <class name="com.crm.qa.Test.HomepageTest"/>
+      <class name="com.crm.qa.Test.ContactpageTest"/>
+    </classes>
+  </test> <!-- Free Crm Test -->
+</suite> <!-- Free Crm Test Suite -->
